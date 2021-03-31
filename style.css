@@ -5,7 +5,7 @@
 }
 
 body{
-	background-color: #DDDDDD;
+	background-color: #BBBBBB;
 }
 
 #wrapper{
@@ -48,7 +48,7 @@ header img{
 }
 
 #menu-utama a:hover{
-	color: #DDDDDD;
+	color: #5E5;
 }
 
 header form{
@@ -68,6 +68,18 @@ header form input{
 #daftar-artikel{
 	width: 470;
 	float: left;
+}
+
+#list-artikel{
+	width: 100%;
+}
+
+#kategori{
+	background:#ffffff;
+	padding: 10px;
+	margin-bottom: 20px;
+	overflow: hidden;
+	border-radius: 7px;
 }
 
 article{
@@ -92,6 +104,7 @@ article b{
 	font-size: 12px;
 	font-weight: bold;
 	margin-right: 10px;
+	border-radius: 7px;
 }
 
 article p{
@@ -100,12 +113,20 @@ article p{
 }
 
 article a{
-	color: #636363;
+	color: #008FD7;
 	text-decoration: none;
 }
 
 article a:hover{
-	color: blue;
+	color: #5E5;
+}
+
+article a h1{
+	color: black;
+	text-decoration: none;
+}
+article a h1:hover{
+	color: #5E5;
 }
 
 aside{
@@ -132,7 +153,8 @@ footer{
 	clear: both;
 	margin: 20px;
 	text-align: center;
-	background-color: #f0f0f0;
+	background-color: #555;
 	padding: 5px;
-	color: #555555;
+	color: #ffffff;
+	border-radius: 7px;
 }
